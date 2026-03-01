@@ -1,0 +1,13 @@
+# 通用
+node_modules/
+dist/
+*.log
+
+# 前端特有
+/frontend/build/
+/frontend/.env
+
+# 后端特有
+/backend/venv/
+/backend/__pycache__/
+/backend/.env
