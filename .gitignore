@@ -1,13 +1,15 @@
-# 通用
+# 通用忽略
 node_modules/
 dist/
 *.log
 
 # 前端特有
-/frontend/build/
-/frontend/.env
+/llm-app-frontend/node_modules/
+/llm-app-frontend/build/
+/llm-app-frontend/.env
+/llm-app-frontend/.vscode/
 
 # 后端特有
-/backend/venv/
-/backend/__pycache__/
-/backend/.env
+/llm-app-backend/venv/
+/llm-app-backend/__pycache__/
+/llm-app-backend/.env
